@@ -97,7 +97,6 @@ void MoveBall()
 		ball.X = MaxX/2;
 		ball.Y = MaxY/2;
 		ball.vY = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX*0.5f));
-		std::cout<<ball.vY;
 		//find who scored
 		(nextX == MaxX)?Score1++:Score2++;
 	}
